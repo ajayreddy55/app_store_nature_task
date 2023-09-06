@@ -320,7 +320,7 @@ const tabsList = [
         <div className="app-store-bg">
             <h1 className="app-store-heading">App Store</h1>
             <div className="app-store-input-container">
-                <input type="search" placeholder="Search" className="app-store-input-element" onChange={changeSearchInput} />
+                <input type="search" placeholder="Search" className="app-store-input-element" onChange={changeSearchInput} value={searchInput} />
                 <i class="fa-solid fa-magnifying-glass app-store-search-icon"></i>
             </div>
             <ul className="app-store-tabs-list-container">
